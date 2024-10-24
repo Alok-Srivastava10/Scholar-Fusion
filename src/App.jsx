@@ -101,7 +101,7 @@ function App() {
           element={
             <OpenRoute>
               <Signup />
-            </OpenRoute>
+            </OpenRoute>  
           }
         />
         <Route

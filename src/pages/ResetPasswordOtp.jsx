@@ -24,7 +24,7 @@ function ResetPasswordOtp() {
     <div className="min-h-[calc(100vh-3.5rem)] grid place-items-center">
         <div className="max-w-[500px] p-4 lg:p-8">
           <h1 className="text-richblack-5 font-semibold text-[1.875rem] leading-[2.375rem]">
-            Verify Reset Password Otp
+          Enter Reset Password OTP
           </h1>
           <p className="text-[1.125rem] leading-[1.625rem] my-4 text-richblack-100">
             A verification code has been sent to you. Enter the code below
@@ -53,7 +53,7 @@ function ResetPasswordOtp() {
               type="submit"
               className="w-full bg-yellow-50 py-[12px] px-[12px] rounded-[8px] mt-6 font-medium text-richblack-900"
             >
-              Submit Otp
+              Submit OTP
             </button>
           </form>
           <div className="mt-6 flex items-center justify-between">

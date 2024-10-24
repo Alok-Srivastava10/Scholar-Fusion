@@ -16,6 +16,9 @@ import LearningLanguageSection from "../components/core/HomePage/LearningLanguag
 import TimelineSection from "../components/core/HomePage/Timeline"
 
 function Home() {
+
+  const value = "In today's educational landscape, ScholarFusion empowers you to chart your own course. To excel as a competitive professional, you need more than just technical skills."
+
   return (
     <div>
       {/* Section 1 */}
@@ -32,16 +35,15 @@ function Home() {
 
         {/* Heading */}
         <div className="text-center text-4xl font-semibold">
-          Empower Your Future with
-          <HighlightText text={"Coding Skills"} />
+        Empower Your Learning with
+          <HighlightText text={"ScholarFusion"} />
         </div>
 
         {/* Sub Heading */}
         <div className="-mt-3 w-[90%] text-center text-lg font-bold text-richblack-300">
-          With our online coding courses, you can learn at your own pace, from
-          anywhere in the world, and get access to a wealth of resources,
-          including hands-on projects, quizzes, and personalized feedback from
-          instructors.
+        With ScholarFusion, learn at your own pace, anywhere you choose, and access a wide array
+        of resources, including hands-on projects, assessments, and personalized guidance from
+        dedicated educators.
         </div>
 
         {/* CTA Buttons */}
@@ -73,12 +75,11 @@ function Home() {
             heading={
               <div className="text-4xl font-semibold">
                 Unlock your
-                <HighlightText text={"coding potential"} /> with our online
-                courses.
+                <HighlightText text={"learning potential"} /> with ScholarFusion's online courses.
               </div>
             }
             subheading={
-              "Our courses are designed and taught by industry experts who have years of experience in coding and are passionate about sharing their knowledge with you."
+              "Our resources are developed and guided by skilled educators and industry experts who are dedicated to sharing their knowledge and facilitating practical, real-world learning experiences."
             }
             ctabtn1={{
               btnText: "Try it Yourself",
@@ -102,12 +103,12 @@ function Home() {
             position={"lg:flex-row-reverse"}
             heading={
               <div className="w-[100%] text-4xl font-semibold lg:w-[50%]">
-                Start
-                <HighlightText text={"coding in seconds"} />
+                Begin
+                <HighlightText text={"learning in just moments"} />
               </div>
             }
             subheading={
-              "Go ahead, give it a try. Our hands-on learning environment means you'll be writing real code from your very first lesson."
+              "Dive into learning with ScholarFusion! Our engaging platform ensures you'll explore real-world projects and interactive resources from your very first lesson."
             }
             ctabtn1={{
               btnText: "Continue Lesson",
@@ -153,14 +154,12 @@ function Home() {
           {/* Job that is in Demand - Section 1 */}
           <div className="mb-10 mt-[-100px] flex flex-col justify-between gap-7 lg:mt-20 lg:flex-row lg:gap-0">
             <div className="text-4xl font-semibold lg:w-[45%] ">
-              Get the skills you need for a{" "}
-              <HighlightText text={"job that is in demand."} />
+              Gain the skills needed for
+              <HighlightText text={"today's most sought-after careers."} />
             </div>
             <div className="flex flex-col items-start gap-10 lg:w-[40%]">
               <div className="text-[16px]">
-                The modern ScholarFusion is the dictates its own terms. Today, to
-                be a competitive specialist requires more than professional
-                skills.
+                 {value}
               </div>
               <CTAButton active={true} linkto={"/signup"}>
                 <div className="">Learn More</div>
@@ -181,11 +180,11 @@ function Home() {
         {/* Become a instructor section */}
         <InstructorSection />
 
-        {/* Reviws from Other Learner */}
+        {/* Reviws from Other Learner
         <h1 className="text-center text-4xl font-semibold mt-8">
           Reviews from other learners
         </h1>
-        <ReviewSlider />
+        <ReviewSlider /> */}
       </div>
 
       {/* Footer */}

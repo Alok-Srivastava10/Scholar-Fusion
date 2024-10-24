@@ -22,9 +22,8 @@ const InstructorSection = () => {
             </h1>
 
             <p className="font-medium text-[16px] text-justify w-[90%] text-richblack-300">
-              Instructors from around the world teach millions of students on
-              ScholarFusion. We provide the tools and skills to teach what you
-              love.
+            Educators from around the globe share their knowledge on ScholarFusion, empowering students
+            with the resources and support to master what they love.
             </p>
 
             <div className="w-fit">

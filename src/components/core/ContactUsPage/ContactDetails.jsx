@@ -8,13 +8,13 @@ const contactDetails = [
     icon: "HiChatBubbleLeftRight",
     heading: "Chat on us",
     description: "Our friendly team is here to help.",
-    details: "info@ScholarFusion.com",
+    details: "Reach us at: scholarfusion@gmail.com",
   },
   {
     icon: "IoCall",
     heading: "Call us",
     description: "Mon - Fri From 8am to 5pm",
-    details: "+123 456 7869",
+    details: "+91 123 456 7890",
   },
 ]
 

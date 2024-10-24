@@ -185,12 +185,12 @@ export function resetPasswordEmail(email, setEmailSent, navigate) {
         throw new Error(response.data.message)
       }
 
-      toast.success("Reset Email Sent")
+      toast.success("Password Reset Email Sent")
       setEmailSent(true)
       navigate("/reset-password-otp-verification")
 
     } catch (error) {
-      toast.error("Failed To Send Reset Email")
+      toast.error("The Email address provided does not matches our records")
     }
     toast.dismiss(toastId)
     dispatch(setLoading(false))

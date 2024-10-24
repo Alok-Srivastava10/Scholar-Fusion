@@ -18,13 +18,13 @@ const About = () => {
       <section className="bg-richblack-700">
         <div className="relative mx-auto flex w-11/12 max-w-maxContent flex-col justify-between gap-10 text-center text-white">
           <header className="mx-auto py-20 text-4xl font-semibold lg:w-[70%]">
-            Driving Innovation in Online Education for a
+            Transforming Learning Journeys for a
+            <br/>
             <HighlightText text={"Brighter Future"} />
             <p className="mx-auto mt-3 text-center text-base font-medium text-richblack-300 lg:w-[95%]">
-              ScholarFusion is at the forefront of driving innovation in online
-              education. We're passionate about creating a brighter future by
-              offering cutting-edge courses, leveraging emerging technologies,
-              and nurturing a vibrant learning community.
+              ScholarFusion is at the forefront of revolutionizing online education. We are commited to shaping a
+              brighter future through innovative learning experiences, leveraging cutting-edge technologies, and
+              nurturing a vibrant community of learners.
             </p>
           </header>
           <div className="sm:h-[70px] lg:h-[150px]"></div>
@@ -51,20 +51,16 @@ const About = () => {
                 Our Founding Story
               </h1>
               <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
-                Our e-learning platform was born out of a shared vision and
-                passion for transforming education. It all began with a group of
-                educators, technologists, and lifelong learners who recognized
-                the need for accessible, flexible, and high-quality learning
-                opportunities in a rapidly evolving digital world.
+                ScholarFusion is more than just a project; it's a vision brought to life by four passionate
+                students—Ayush Kumar, Alok Srivastava, Anurag Srivastava, and Anshuman Verma. As
+                part of our fourth-year B.Tech major project in 2024, we set out to revolutionize the
+                educational experience for students and educators alike.
               </p>
               <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
-                As experienced educators ourselves, we witnessed firsthand the
-                limitations and challenges of traditional education systems. We
-                believed that education should not be confined to the walls of a
-                classroom or restricted by geographical boundaries. We
-                envisioned a platform that could bridge these gaps and empower
-                individuals from all walks of life to unlock their full
-                potential.
+                  During our studies at AKTU, we recognized the significant challenges students
+                  face in accessing and navigating fragmented educational resources. Our diverse backgrounds
+                  inspired us to create a platform that consolidates learning materials and fosters collaboration
+                  among peers.
               </p>
             </div>
 
@@ -82,12 +78,13 @@ const About = () => {
                 Our Vision
               </h1>
               <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
-                With this vision in mind, we set out on a journey to create an
-                e-learning platform that would revolutionize the way people
-                learn. Our team of dedicated experts worked tirelessly to
-                develop a robust and intuitive platform that combines
-                cutting-edge technology with engaging content, fostering a
-                dynamic and interactive learning experience.
+                  At ScholarFusion, we envision a future where education is universally
+                  accessible, engaging, and tailored to meet the diverse needs of every learner. We aim to
+                  create a dynamic and inclusive platform that leverages cutting-edge technology to facilitate
+                  meaningful connections between students and educators. By fostering a collaborative
+                  community, we aspire to empower individuals to pursue their passions, expand their
+                  knowledge, and achieve their academic and professional goals, ultimately contributing to a
+                  more informed and skilled society.
               </p>
             </div>
             <div className="my-24 flex lg:w-[40%] flex-col gap-10">
@@ -95,7 +92,13 @@ const About = () => {
               Our Mission
               </h1>
               <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
-              Our mission goes beyond just delivering courses online. We wanted to create a vibrant community of learners, where individuals can connect, collaborate, and learn from one another. We believe that knowledge thrives in an environment of sharing and dialogue, and we foster this spirit of collaboration through forums, live sessions, and networking opportunities.
+                  At ScholarFusion, our mission is to transform the educational landscape by
+                  providing a centralized platform that consolidates diverse learning resources, fosters real-time
+                  collaboration, and ensures a safe learning environment. We are dedicated to empowering
+                  students and educators alike with the tools and support they need to enhance their learning
+                  journey, promoting engagement and innovation through interactive features and advanced
+                  technologies. By nurturing a vibrant community, we strive to help every learner unlock their
+                  full potential and achieve academic success.     
               </p>
             </div>
           </div>

@@ -23,8 +23,8 @@ const TimeLine = [
     },
     {
       Logo: Logo4,
-      Heading: "Solve the problem",
-      Description: "Code your way to a solution",
+      Heading: "Discover Courses",
+      Description: "Explore our diverse offerings",
     },
   ];
 
@@ -59,7 +59,7 @@ const TimelineSection = () => {
           <div className="absolute lg:left-[50%] lg:bottom-0 lg:translate-x-[-50%] lg:translate-y-[50%] bg-caribbeangreen-700 flex lg:flex-row flex-col text-white uppercase py-5 gap-4 lg:gap-0 lg:py-10 ">
             {/* Section 1 */}
             <div className="flex gap-5 items-center lg:border-r border-caribbeangreen-300 px-7 lg:px-14">
-              <h1 className="text-3xl font-bold w-[75px]">10</h1>
+              <h1 className="text-3xl font-bold w-[75px]">10 +</h1>
               <h1 className="text-caribbeangreen-300 text-sm w-[75px]">
                 Years experiences
               </h1>
@@ -67,9 +67,9 @@ const TimelineSection = () => {
 
             {/* Section 2 */}
             <div className="flex gap-5 items-center lg:px-14 px-7">
-              <h1 className="text-3xl font-bold w-[75px]">250</h1>
+              <h1 className="text-3xl font-bold w-[75px]">10 +</h1>
               <h1 className="text-caribbeangreen-300 text-sm w-[75px]">
-                types of courses
+                variety of courses
               </h1>
             </div>
             <div></div>
