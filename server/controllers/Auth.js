@@ -124,7 +124,7 @@ exports.login = async (req, res) => {
       // Return 400 Bad Request status code with error message
       return res.status(400).json({
         success: false,
-        message: `Please Fill up All the Required Fields`,
+        message: `Please Enter Email and Password`,
       })
     }
 
@@ -136,7 +136,7 @@ exports.login = async (req, res) => {
       // Return 401 Unauthorized status code with error message
       return res.status(401).json({
         success: false,
-        message: `User is not Registered with Us Please SignUp to Continue`,
+        message: `Invalid Email, Please SignUp to Login`,
       })
     }
 

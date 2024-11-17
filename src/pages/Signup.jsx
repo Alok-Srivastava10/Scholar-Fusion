@@ -4,7 +4,7 @@ import Template from "../components/core/Auth/Template"
 function Signup() {
   return (
     <Template
-      title="Join the millions learning to code with StudyNotion for free"
+      title="Unlock your potential and join millions of learners worldwide on ScholarFusion. "
       description1="Build skills for today, tomorrow, and beyond."
       description2="Education to future-proof your career."
       image={signupImg}

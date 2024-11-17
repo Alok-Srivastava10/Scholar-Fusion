@@ -126,7 +126,8 @@ export function login(email, password, navigate) {
       dispatch(sendLoginOtp(email,navigate))
 
     } catch (error) {
-      toast.error("Login Failed")
+      console.log(error);
+      toast.error(error.response.data.message)
     }
     dispatch(setLoading(false))
     toast.dismiss(toastId)
@@ -138,8 +139,6 @@ export function verifyLoginOtp(email,otp,navigate){
   return async (dispatch) => {
       const toastId = toast.loading("Loading...")
       dispatch(setLoading(true))
-
-      console.log(email, otp)
       
       try {
       const response = await apiConnector("POST",   VERIFY_LOGIN_OTP_API, {
